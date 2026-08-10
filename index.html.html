@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yogang — Domínio à venda</title>
+<meta name="description" content="O domínio yogang.com.br está disponível para aquisição.">
+<style>
+:root{
+  --bg:#F6F1FB;--text:#332744;--muted:#746B80;--accent:#B79AD9;--accent-dark:#7654A6;
+  --card:#FFFFFFD9;--border:#E4D9EF;--badge-bg:#EFE6F8;--badge-text:#7654A6;
+}
+*{box-sizing:border-box}html,body{margin:0;padding:0}
+body{
+  min-height:100vh;
+  font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:
+    radial-gradient(circle at top left, rgba(183,154,217,.16), transparent 34%),
+    radial-gradient(circle at bottom right, rgba(210,196,230,.14), transparent 32%),
+    var(--bg);
+  color:var(--text);display:flex;align-items:center;justify-content:center;padding:32px 20px;
+}
+.wrap{
+  width:min(980px,100%);min-height:650px;display:flex;flex-direction:column;justify-content:space-between;
+  background:var(--card);border:1px solid var(--border);border-radius:28px;padding:34px 34px 26px;
+  box-shadow:0 20px 60px rgba(40,50,44,.08);backdrop-filter:blur(10px);
+}
+.top{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.brand{font-size:18px;font-weight:700;letter-spacing:.02em}
+.badge{
+  font-size:12px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:9px 12px;border-radius:999px;
+  background:var(--badge-bg);color:var(--badge-text);border:1px solid var(--border);
+}
+.hero{text-align:center;max-width:760px;margin:70px auto 80px}
+.domain{display:block;font-size:clamp(18px,2.6vw,28px);color:var(--accent-dark);margin-bottom:22px;letter-spacing:.02em;font-weight:700}
+h1{margin:0 0 22px;font-size:clamp(46px,8vw,88px);line-height:.98;letter-spacing:-.045em;font-weight:800}
+p{margin:0 auto;max-width:630px;color:var(--muted);font-size:clamp(18px,2.2vw,22px);line-height:1.55}
+.cta-wrap{margin-top:36px;display:flex;justify-content:center;flex-wrap:wrap;gap:12px}
+.cta{
+  display:inline-flex;align-items:center;justify-content:center;min-height:54px;padding:0 24px;border-radius:14px;
+  background:var(--text);color:white;text-decoration:none;font-weight:700;font-size:16px;transition:.2s ease;
+  box-shadow:0 10px 24px rgba(31,42,36,.14)
+}
+.cta:hover{transform:translateY(-2px);opacity:.94}
+.note{margin-top:18px;font-size:13px;color:var(--muted)}
+footer{border-top:1px solid var(--border);padding-top:20px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;color:var(--muted);font-size:13px}
+@media(max-width:640px){
+  .wrap{min-height:calc(100vh - 40px);padding:24px 20px 20px;border-radius:22px}
+  .top{align-items:flex-start}.hero{margin:56px auto 64px}footer{flex-direction:column}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+<header class="top">
+  <div class="brand">Yogang</div>
+  <div class="badge">Domínio disponível</div>
+</header>
+<section class="hero">
+  <span class="domain">yogang.com.br</span>
+  <h1>Este domínio está à venda.</h1>
+  <p>Um bom nome pode ser o começo de um grande negócio. O domínio <strong>yogang.com.br</strong> está disponível para aquisição.</p>
+  <div class="cta-wrap">
+    <a class="cta" href="mailto:virevendahoje@gmail.com?subject=Interesse%20no%20dom%C3%ADnio%20yogang.com.br">Fazer uma proposta</a>
+  </div>
+  <div class="note">Negociação direta com o titular do domínio.</div>
+</section>
+<footer>
+  <span>© 2026 Yogang</span>
+  <span>Domínio disponível para negociação</span>
+</footer>
+</main>
+</body>
+</html>
